@@ -1,0 +1,19 @@
+[package]
+name = "bmc-console"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+authors = ["Sven Rademakers <sven@turingpi.com>"]
+description = "Turing-Pi2 BMC console"
+homepage = "https://turingpi.com/"
+repository = "https://github.com/turing-machines/bmc-console"
+readme = "README.md"
+categories = ["command-line-interface"]
+keywords = ["turing-pi", "console", "CLI", "edge-computing", "board-management"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+wee_alloc = "0.4.5"
